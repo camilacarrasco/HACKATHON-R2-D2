@@ -1,0 +1,226 @@
+.navbar{
+  margin-bottom: 0;
+}
+.titulo{
+  color: $white;
+  padding-top: 260px;
+  font-size: 65px;
+}
+.tit{
+  color: $amarillo;
+  font-size: $big;
+}
+body{
+  margin: 0;
+}
+.fondo{
+  background-size: hover;
+}
+.fondo-fixed{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.fondo-1 {
+  	background-image: url("../img/fondo-header.jpg");
+    width: 100%;
+}
+.modulo-alto {
+  padding: 1em;
+  min-height: 100vh;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.8);
+}
+//seccion Auspiciadores//
+.logo-laboratoria{
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 10px;
+  &:hover{
+    width: 70%;
+  }
+}
+.logo-ifblanco{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 15px;
+  &:hover{
+    width: 100%;
+  }
+}
+.logo-fmedios, .logo-gitlab, .logo-sol{
+  width: 60%;
+  margin: 0 auto;
+  &:hover {
+    width: 70%;
+  }
+}
+.Apple-style-span{
+  border:300px;
+  padding:20px 0px 30px 0px;
+}
+#partners {
+  padding-top: 3%;
+}
+
+//fin de Auspiciadores//
+
+//seccion de HORARIO
+.panel-group {
+  .panel-default {
+    border: 0;
+    border-radius: 0;
+    .panel-heading {
+      background: transparent;
+      padding: 0;
+      .panel-title a {
+        padding: 20px 0%;
+        background: $gris-oscuro;
+        display: block;
+        color: $white;
+        text-decoration: none;
+        &:hover {
+          background: $amarillo;
+          color: $black;
+        }
+      }
+    }
+    .panel-collapse {
+      background: $black;
+      color: $white;
+      .panel-body {
+        border: 0;
+      }
+    }
+  }
+}
+footer{
+  background-color: $black;
+  ol li{
+    color: $azul-claro;
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    margin-right: 100px;
+    border-right: 1px solid $white;
+  }
+}
+.ultitulo{
+  padding: 16px 0;
+  a {
+    padding: 0 5px;
+    color: $gris-oscuro;
+    font-size: 1.5em;
+    text-decoration: none;
+    &:hover {
+      color: $gris-claro;
+    }
+  }
+}
+.lab{
+  color: $amarillo;
+  text-align: center;
+  font-size: 30px;
+}
+.im{
+  margin-left: 350px;
+}
+.navbar-footer a{
+  display: inline;
+  text-align: center;
+  margin-right: 120px;
+  border-right: 1px solid $white;
+}
+
+.bg-black {
+  background: $black;
+}
+/*SECCIÓN DE LA DESCRIPCION*/
+.descripcion{
+  text-align: center;
+  .content-descrip{
+    padding: $pd-5;
+  }
+  .titulo-seccion{
+    color: $amarillo;
+    font-size: $big;
+  }
+}
+.texto-descripcion{
+    color: $white;
+    font-size: $medium;
+    margin-top: $mt-20;
+    h5{
+      font-size: $medium;
+      margin-top: $mt-20;
+    }
+}
+cite {
+  color: $azul-claro;
+}
+.boton-inscripcion {
+  color: black;
+  font-size: 2.5em;
+  padding: 12px 15%;
+  border-radius: 10px;
+  background: $amarillo;
+  &:hover {
+    text-decoration: none;
+    color: #E1E0E0;
+    background: #FECF23;
+    margin-top: 3px;
+    border: solid 2px $amarillo;
+  }
+}
+.titulo-seccion{
+  color: $amarillo;
+  font-size: $big;
+  margin-bottom: 3%;
+}
+.cont-horarios {
+  padding: 6%;
+}
+.bg-white {
+  background: $white;
+}
+.pd-lateral {
+  padding: 0 4%;
+}
+.pd-4 {
+  padding: 10% 0;
+}
+.pb-4 {
+  margin-bottom: 4%;
+}
+.pd-5 {
+  padding: 7% 0;
+}
+.reloj {
+  font-size: 3em;
+}
+/*ESTILOS PARA LA CITA DE YODA*/
+.cita-yoda{
+  width: 105%;
+  margin-bottom: 10%;
+    cite{
+      color: $white;
+      font-size: $large;
+  }
+}
+.img-yoda-resp{
+  margin-top: 10%;
+  margin-left: 45%;
+  width: 10%;
+}
+.titulo-contacto{
+  margin-bottom: 5%;
+}
+.navbar-default .navbar-nav>li> .menu-meetup{
+  font-weight: bold;
+  font-size: 1.2em;
+  &:hover{
+    color: $amarillo;
+  }
+}

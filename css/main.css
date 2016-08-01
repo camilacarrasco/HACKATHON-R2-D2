@@ -1,0 +1,220 @@
+@charset "UTF-8";
+/*VARIABLES DE ESPACIO*/
+/*VARIABLES DE TEXTO*/
+/*TAMA├æOS*/
+.navbar {
+  margin-bottom: 0; }
+
+.titulo {
+  color: #DEDCE5;
+  padding-top: 260px;
+  font-size: 65px; }
+
+.tit {
+  color: #FEE123;
+  font-size: 45px; }
+
+body {
+  margin: 0; }
+
+.fondo {
+  background-size: hover; }
+
+.fondo-fixed {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.fondo-1 {
+  background-image: url("../img/fondo-header.jpg");
+  width: 100%; }
+
+.modulo-alto {
+  padding: 1em;
+  min-height: 100vh;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.logo-laboratoria {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 10px; }
+  .logo-laboratoria:hover {
+    width: 70%; }
+
+.logo-ifblanco {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 15px; }
+  .logo-ifblanco:hover {
+    width: 100%; }
+
+.logo-fmedios, .logo-gitlab, .logo-sol {
+  width: 60%;
+  margin: 0 auto; }
+  .logo-fmedios:hover, .logo-gitlab:hover, .logo-sol:hover {
+    width: 70%; }
+
+.Apple-style-span {
+  border: 300px;
+  padding: 20px 0px 30px 0px; }
+
+#partners {
+  padding-top: 3%; }
+
+.panel-group .panel-default {
+  border: 0;
+  border-radius: 0; }
+  .panel-group .panel-default .panel-heading {
+    background: transparent;
+    padding: 0; }
+    .panel-group .panel-default .panel-heading .panel-title a {
+      padding: 20px 0%;
+      background: #383337;
+      display: block;
+      color: #DEDCE5;
+      text-decoration: none; }
+      .panel-group .panel-default .panel-heading .panel-title a:hover {
+        background: #FEE123;
+        color: #0F0B0D; }
+  .panel-group .panel-default .panel-collapse {
+    background: #0F0B0D;
+    color: #DEDCE5; }
+    .panel-group .panel-default .panel-collapse .panel-body {
+      border: 0; }
+
+footer {
+  background-color: #0F0B0D; }
+  footer ol li {
+    color: #3F74AC;
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    margin-right: 100px;
+    border-right: 1px solid #DEDCE5; }
+
+.ultitulo {
+  padding: 16px 0; }
+  .ultitulo a {
+    padding: 0 5px;
+    color: #383337;
+    font-size: 1.5em;
+    text-decoration: none; }
+    .ultitulo a:hover {
+      color: #645E64; }
+
+.lab {
+  color: #FEE123;
+  text-align: center;
+  font-size: 30px; }
+
+.im {
+  margin-left: 350px; }
+
+.navbar-footer a {
+  display: inline;
+  text-align: center;
+  margin-right: 120px;
+  border-right: 1px solid #DEDCE5; }
+
+.bg-black {
+  background: #0F0B0D; }
+
+/*SECCI├ôN DE LA DESCRIPCION*/
+.descripcion {
+  text-align: center; }
+  .descripcion .content-descrip {
+    padding: 5%; }
+  .descripcion .titulo-seccion {
+    color: #FEE123;
+    font-size: 45px; }
+
+.texto-descripcion {
+  color: #DEDCE5;
+  font-size: 25px;
+  margin-top: 20px; }
+  .texto-descripcion h5 {
+    font-size: 25px;
+    margin-top: 20px; }
+
+cite {
+  color: #3F74AC; }
+
+.boton-inscripcion {
+  color: black;
+  font-size: 2.5em;
+  padding: 12px 15%;
+  border-radius: 10px;
+  background: #FEE123; }
+  .boton-inscripcion:hover {
+    text-decoration: none;
+    color: #E1E0E0;
+    background: #FECF23;
+    margin-top: 3px;
+    border: solid 2px #FEE123; }
+
+.titulo-seccion {
+  color: #FEE123;
+  font-size: 45px;
+  margin-bottom: 3%; }
+
+.cont-horarios {
+  padding: 6%; }
+
+.bg-white {
+  background: #DEDCE5; }
+
+.pd-lateral {
+  padding: 0 4%; }
+
+.pd-4 {
+  padding: 10% 0; }
+
+.pb-4 {
+  margin-bottom: 4%; }
+
+.pd-5 {
+  padding: 7% 0; }
+
+.reloj {
+  font-size: 3em; }
+
+/*ESTILOS PARA LA CITA DE YODA*/
+.cita-yoda {
+  width: 105%;
+  margin-bottom: 10%; }
+  .cita-yoda cite {
+    color: #DEDCE5;
+    font-size: 35px; }
+
+.img-yoda-resp {
+  margin-top: 10%;
+  margin-left: 45%;
+  width: 10%; }
+
+.titulo-contacto {
+  margin-bottom: 5%; }
+
+.navbar-default .navbar-nav > li > .menu-meetup {
+  font-weight: bold;
+  font-size: 1.2em; }
+  .navbar-default .navbar-nav > li > .menu-meetup:hover {
+    color: #FEE123; }
+
+header {
+  border-bottom: 2px solid #FEE123;
+  padding-bottom: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 2; }
+
+.banner {
+  width: 350px; }
+
+.navbar-default {
+  background-color: #0F0B0D;
+  border: 0; }
+
+/*# sourceMappingURL=main.css.map */

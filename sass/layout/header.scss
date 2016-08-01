@@ -1,0 +1,14 @@
+header{
+	border-bottom: 2px solid $amarillo;
+	padding-bottom: 10px;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+.banner{
+	width: 350px;
+}
+.navbar-default{
+	background-color: $black; 
+ 	border: 0;
+}
